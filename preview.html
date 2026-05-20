@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Auditoría y Modernización Energética del Alumbrado de Gálvez</title>
+
+  <meta name="description" content="Propuesta estratégica de auditoría y modernización energética del alumbrado público de Gálvez. Optimización energética, cumplimiento normativo y sostenibilidad urbana." />
+
+  <meta property="og:title" content="Auditoría y Modernización Energética del Alumbrado de Gálvez" />
+  <meta property="og:description" content="Proyecto estratégico para optimizar el alumbrado público, reducir costos energéticos y modernizar la infraestructura urbana de Gálvez." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .glass {
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .gradient-text {
+      background: linear-gradient(to right, #f59e0b, #22c55e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-lg md:text-xl font-bold tracking-tight">
+        💡 Gálvez Energía
+      </a>
+
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#inicio" class="hover:text-amber-500 transition">Inicio</a>
+        <a href="#beneficios" class="hover:text-amber-500 transition">Beneficios</a>
+        <a href="#sobre" class="hover:text-amber-500 transition">Diagnóstico</a>
+        <a href="#faq" class="hover:text-amber-500 transition">FAQ</a>
+      </nav>
+
+      <button id="themeToggle" class="p-2 rounded-full bg-slate-100 dark:bg-slate-800 hover:scale-110 transition">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="relative min-h-screen flex items-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-white dark:via-slate-950 to-green-500/10"></div>
+
+    <div class="max-w-7xl mx-auto px-6 py-32 relative z-10">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div class="fade-in">
+          <div class="inline-flex items-center gap-2 bg-amber-100 dark:bg-amber-500/10 text-amber-700 dark:text-amber-300 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+            Ingeniería • Eficiencia • Sostenibilidad
+          </div>
+
+          <h1 class="text-5xl md:text-7xl font-black leading-tight mb-8">
+            Modernización Energética del
+            <span class="gradient-text">Alumbrado Público</span>
+            de Gálvez
+          </h1>
+
+          <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+            El alumbrado público representa entre el 40% y el 60% del consumo energético municipal. 
+            Esta auditoría energética integral identifica oportunidades reales de optimización, 
+            reducción del gasto operativo y mitigación de la contaminación lumínica mediante 
+            soluciones tecnológicas avanzadas y criterios de sostenibilidad urbana.
+          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <a href="#beneficios"
+               class="px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-semibold transition shadow-lg hover:shadow-2xl hover:-translate-y-1">
+              Conocer el Proyecto
+            </a>
+
+            <a href="#sobre"
+               class="px-8 py-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+              Ver Diagnóstico
+            </a>
+          </div>
+        </div>
+
+        <div class="fade-in">
+          <div class="glass border border-white/20 dark:border-slate-800 rounded-3xl p-8 shadow-2xl">
+            <div class="grid grid-cols-2 gap-6">
+
+              <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl font-black text-amber-500">1.100</div>
+                <div class="text-sm mt-2 text-slate-500 dark:text-slate-400">
+                  Puntos de luz auditados
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl font-black text-green-500">142 kW</div>
+                <div class="text-sm mt-2 text-slate-500 dark:text-slate-400">
+                  Potencia instalada
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl font-black text-blue-500">28</div>
+                <div class="text-sm mt-2 text-slate-500 dark:text-slate-400">
+                  Centros de mando
+                </div>
+              </div>
+
+              <div class="bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-lg">
+                <div class="text-4xl font-black text-purple-500">55 km²</div>
+                <div class="text-sm mt-2 text-slate-500 dark:text-slate-400">
+                  Cobertura municipal
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios" class="py-24 bg-slate-50 dark:bg-slate-900">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center max-w-3xl mx-auto mb-16 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black mb-6">
+          Beneficios Estratégicos
+        </h2>
+
+        <p class="text-lg text-slate-600 dark:text-slate-300">
+          La modernización del sistema de alumbrado constituye una decisión 
+          crítica de gestión pública con impacto financiero, ambiental y social.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- CARD -->
+        <div class="fade-in bg-white dark:bg-slate-950 rounded-3xl p-8 shadow-xl hover:-translate-y-2 transition duration-300 border border-slate-100 dark:border-slate-800">
+          <div class="w-16 h-16 rounded-2xl bg-amber-100 dark:bg-amber-500/10 flex items-center justify-center text-3xl mb-6">
+            ⚡
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Optimización Energética y Financiera
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Reducción drástica del consumo energético mediante tecnología LED 
+            de alta eficacia, disminuyendo el gasto operativo y garantizando 
+            un retorno de inversión excepcional gracias a más de 4.000 horas 
+            anuales de operación.
+          </p>
+        </div>
+
+        <!-- CARD -->
+        <div class="fade-in bg-white dark:bg-slate-950 rounded-3xl p-8 shadow-xl hover:-translate-y-2 transition duration-300 border border-slate-100 dark:border-slate-800">
+          <div class="w-16 h-16 rounded-2xl bg-green-100 dark:bg-green-500/10 flex items-center justify-center text-3xl mb-6">
+            🛡️
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Seguridad y Cumplimiento Normativo
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Adecuación integral al RD 1890/2008 y al REBT ITC-BT-09, 
+            garantizando instalaciones seguras, conformes a normativa y 
+            con mejores niveles de iluminancia y uniformidad vial.
+          </p>
+        </div>
+
+        <!-- CARD -->
+        <div class="fade-in bg-white dark:bg-slate-950 rounded-3xl p-8 shadow-xl hover:-translate-y-2 transition duration-300 border border-slate-100 dark:border-slate-800">
+          <div class="w-16 h-16 rounded-2xl bg-blue-100 dark:bg-blue-500/10 flex items-center justify-center text-3xl mb-6">
+            🌍
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Mitigación del Impacto Ambiental
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Control preciso del Factor de Hemisferio Superior (FHS), 
+            reducción del resplandor nocturno y disminución significativa 
+            de emisiones de CO₂ alineadas con estándares internacionales 
+            de sostenibilidad.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div class="fade-in">
+          <h2 class="text-4xl md:text-5xl font-black mb-8">
+            Diagnóstico Técnico del Sistema
+          </h2>
+
+          <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+            La auditoría energética integró inspecciones diurnas y mediciones 
+            nocturnas mediante instrumentación especializada para evaluar el 
+            estado real de la infraestructura de iluminación exterior.
+          </p>
+
+          <div class="space-y-5">
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Superficie del municipio</span>
+              <span class="font-bold text-amber-500">55 km²</span>
+            </div>
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Población (2016)</span>
+              <span class="font-bold text-amber-500">3.136 habitantes</span>
+            </div>
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Densidad poblacional</span>
+              <span class="font-bold text-amber-500">57,75 hab/km²</span>
+            </div>
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Centros de mando</span>
+              <span class="font-bold text-amber-500">28 unidades</span>
+            </div>
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Número de luminarias</span>
+              <span class="font-bold text-amber-500">1.100 puntos</span>
+            </div>
+
+            <div class="flex justify-between items-center border-b border-slate-200 dark:border-slate-800 pb-4">
+              <span class="font-semibold">Potencia instalada</span>
+              <span class="font-bold text-amber-500">142,02 kW</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="fade-in">
+          <div class="bg-gradient-to-br from-amber-500 to-green-600 rounded-3xl p-10 text-white shadow-2xl">
+
+            <h3 class="text-3xl font-black mb-8">
+              Indicadores de Eficiencia
+            </h3>
+
+            <div class="space-y-8">
+
+              <div>
+                <div class="text-4xl font-black">178,845</div>
+                <div class="text-lg">kWh por habitante</div>
+              </div>
+
+              <div>
+                <div class="text-4xl font-black">168,77</div>
+                <div class="text-lg">kgCO₂ por punto de luz</div>
+              </div>
+
+              <div>
+                <div class="text-4xl font-black">631 €/kW</div>
+                <div class="text-lg">Factura anual por potencia instalada</div>
+              </div>
+
+              <div>
+                <div class="text-4xl font-black">3.949,3</div>
+                <div class="text-lg">kWh anuales por kW instalado</div>
+              </div>
+
+              <div>
+                <div class="text-4xl font-black">2,851</div>
+                <div class="text-lg">Habitantes por punto de luz</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-24 bg-slate-50 dark:bg-slate-900">
+    <div class="max-w-4xl mx-auto px-6">
+
+      <div class="text-center mb-16 fade-in">
+        <h2 class="text-4xl md:text-5xl font-black mb-6">
+          Preguntas Frecuentes
+        </h2>
+
+        <p class="text-lg text-slate-600 dark:text-slate-300">
+          Resolución de inquietudes técnicas sobre la modernización del sistema.
+        </p>
+      </div>
+
+      <div class="space-y-5">
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-in bg-white dark:bg-slate-950 rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:border-slate-800">
+          <button class="faq-question w-full text-left px-8 py-6 flex justify-between items-center font-bold text-lg">
+            ¿Cuál es el peso real del alumbrado en el presupuesto energético municipal?
+            <span>+</span>
+          </button>
+
+          <div class="faq-answer hidden px-8 pb-6 text-slate-600 dark:text-slate-300 leading-relaxed">
+            El alumbrado público representa entre el 40% y el 60% del consumo energético municipal, siendo el servicio de mayor impacto operativo y financiero debido a su funcionamiento continuo durante más de 4.000 horas anuales.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-in bg-white dark:bg-slate-950 rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:border-slate-800">
+          <button class="faq-question w-full text-left px-8 py-6 flex justify-between items-center font-bold text-lg">
+            ¿Qué implicaciones tiene el Reglamento de Eficiencia Energética?
+            <span>+</span>
+          </button>
+
+          <div class="faq-answer hidden px-8 pb-6 text-slate-600 dark:text-slate-300 leading-relaxed">
+            El proyecto asegura el cumplimiento del RD 1890/2008 y sus Instrucciones Técnicas Complementarias EA-01 a EA-07, garantizando una infraestructura eficiente, segura y legalmente conforme.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-in bg-white dark:bg-slate-950 rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:border-slate-800">
+          <button class="faq-question w-full text-left px-8 py-6 flex justify-between items-center font-bold text-lg">
+            ¿Cuál es el propósito de la telegestión y regulación de flujo?
+            <span>+</span>
+          </button>
+
+          <div class="faq-answer hidden px-8 pb-6 text-slate-600 dark:text-slate-300 leading-relaxed">
+            La telegestión punto a punto permite monitorear y controlar remotamente cada luminaria, optimizando la curva de carga, regulando el flujo luminoso según horarios y facilitando un mantenimiento preventivo altamente eficiente.
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item fade-in bg-white dark:bg-slate-950 rounded-2xl shadow-lg overflow-hidden border border-slate-100 dark:border-slate-800">
+          <button class="faq-question w-full text-left px-8 py-6 flex justify-between items-center font-bold text-lg">
+            ¿Cómo se mitiga la contaminación lumínica?
+            <span>+</span>
+          </button>
+
+          <div class="faq-answer hidden px-8 pb-6 text-slate-600 dark:text-slate-300 leading-relaxed">
+            Se implementan ópticas de alta precisión que dirigen la luz exclusivamente hacia el plano útil, reduciendo el resplandor nocturno, protegiendo la biodiversidad y mejorando la calidad del cielo nocturno del municipio.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="rounded-3xl bg-gradient-to-r from-amber-500 to-green-600 p-12 text-center text-white shadow-2xl fade-in">
+
+        <h2 class="text-4xl md:text-5xl font-black mb-6">
+          Transformando la Infraestructura Urbana
+        </h2>
+
+        <p class="text-xl text-white/90 mb-8 leading-relaxed">
+          Una auditoría energética rigurosa es el primer paso para construir 
+          un sistema de alumbrado eficiente, sostenible y alineado con las 
+          necesidades del futuro.
+        </p>
+
+        <a href="https://wa.me/573012383879"
+           target="_blank"
+           class="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white text-slate-900 font-bold hover:scale-105 transition shadow-lg">
+          📲 Solicitar Información
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-10">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div>
+        <p class="font-semibold">
+          © 2026 Auditoría Energética Gálvez
+        </p>
+        <p class="text-sm text-slate-500 dark:text-slate-400">
+          Infraestructura eficiente, normativa y sostenible.
+        </p>
+      </div>
+
+      <div class="flex gap-5 text-2xl">
+        <a href="#" class="hover:scale-110 transition">🌐</a>
+        <a href="#" class="hover:scale-110 transition">📘</a>
+        <a href="#" class="hover:scale-110 transition">💼</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/573012383879"
+     target="_blank"
+     class="fixed bottom-6 right-6 w-16 h-16 rounded-full bg-green-500 hover:bg-green-600 shadow-2xl flex items-center justify-center text-white text-3xl z-50 hover:scale-110 transition">
+    💬
+  </a>
+
+  <!-- SCRIPTS -->
+  <script>
+
+    // DARK MODE
+    const themeToggle = document.getElementById('themeToggle');
+
+    if(localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+      themeToggle.textContent = '☀️';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+
+      if(document.documentElement.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.textContent = '☀️';
+      } else {
+        localStorage.setItem('theme', 'light');
+        themeToggle.textContent = '🌙';
+      }
+    });
+
+    // FAQ
+    const faqQuestions = document.querySelectorAll('.faq-question');
+
+    faqQuestions.forEach(question => {
+      question.addEventListener('click', () => {
+
+        const answer = question.nextElementSibling;
+        const icon = question.querySelector('span');
+
+        answer.classList.toggle('hidden');
+
+        icon.textContent = answer.classList.contains('hidden') ? '+' : '−';
+      });
+    });
+
+    // FADE IN ON SCROLL
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+
+  </script>
+
+</body>
+</html>
